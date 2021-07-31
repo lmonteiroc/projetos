@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<title>portfolio</title>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script type="text/javascript" src="myscript.js"> </script>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<header class="site-header fixed-top bg-black border-bottom bg-dark">
+   
+	<section id="cabecario">
+	
+	<div class="container-fluid text- center margin">
+	
+<div style="position: fixed; top: 0px; width: 99%; ">
+ <div id="fundo">
+ <div class="esquerda">
+<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="https://linktr.ee/l.monteiroc">Luciano</a></button>
+</div>
+<div id="right"> <a href="#sobre"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">°SOBRE </button></a> <a href="#apresenta"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">°APRESENTAÇÃO</button></a> <a href="#PROJETOS"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">°PROJETOS</button></a></div>
+
+</head>
+<body>
+
+<br>
+<hr>
+
+</div>
+</div>
+</section>
+
+<br>
+
+<h1 class="ml3" style="text-decoration:underline 10px">WEB DESIGN</h1>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<script type="text/javascript">
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml3');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: (el, i) => 150 * (i+1)
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  
+  </script>
+
+<h2>PORTFOLIO</h2>
+<p>  Hi, I'm Luciano and I'm a freelancer Web Disigner</p>
+
+<div class="container-fluid text- center margin p">
+<div class="container">
+<div class="row">
+<div class="col lg4">
+<br><br>
+ <center><h3 style="text-decoration:underline 2px" "text-align:center" id="apresenta">O QUE FAZEMOS</h3><br></center>
+
+<img src="img/lu.jpg" width="1000" height="450" onMouseOver="aumenta(this)" onMouseOut="diminui(this)">
+
+<div class="col lg-4">
+<p style="text-align:center">First I learned how to code on an app on my phone a few years ago.
+ Now I'm coding part-time for while I working remotetaly. Can you see my last projects hier onder.</p>
+ <br>
+ <br>
+ </div>
+</img>
+
+<p style="text-align:center" id="sobre">Passe o mouse abaixo e descubra nossa crença e valores!</p><br>
+<h3 id="mousemove"onMouseOver="trocar()" onMouseOut="voltar()">I help you to design your ideal product.</h3>
+  
+
+
+
+<div id="projetos">
+<div class="row">
+<center><h1 style="text-decoration:underline 10px" "text-align:center" id="PROJETOS">PROJETOS</h1><br></center>
+ <div class="coluna"><p> Criação e publicação de cursos digitáis na plataforma Udemy, voltada a área da educação proporcionando conteúdos de qualidade nas áreas de técnologia, ciencias e finanças.<a href="https://www.udemy.com/course/nocoes-de-seguranca-do-trabalho/?referralCode=8B1F6F688F536B5A3E42"><img src="img/udemy.jpg" width="250" height="90"></a></div>  <div class="coluna">Livro de produção independente, publicado pela Autografia voltado a área de finanças, demosntrando os principáis aspectos que um investidor iniciante deve se atentar para formar sua carteira de investimentos e acumular capital.<a href="https://www.autografia.com.br/produto/investidor-independente-guia-para-sua-independencia-financeira/"><img src="img/book.jpg" width="250" height="90"></a></div>  <div class="coluna">Criação e publicação de cursos digitáis na plataforma Domestyca, voltada a área da educação proporcionando conteúdos de qualidade nas áreas de técnologia, ciencias e finanças.<br><br><a href="erro.html"><img src="img/do.jpg" width="250" height="90"></a></div>  <div class="coluna"> Iniciativa independente de um micro empreendimento de criação de App no code na Play Store, produção sob demanda de games educativos e de carteiras de contole financeiro.<br><br><a href="erro.html"><img src="img/light more.jpg" width="250" height="90"></a></div>  <div class="coluna"> Site voltado ao micro empreendedor que busca realizar abertura de MEI, fornecemos orientações  sobre a emissão de notas fincais, declaramos de imposto de renda e disponiblizamos apps para controle financeiro.<a href="erro.html"><img src="img/m.jpg" width="250" height="90"></a></div>
+</div>
+</div>
+
+
+<main>
+<center>
+<footer>
+<div class="rodape">
+<div class="container-fluid text">
+<div class="row">
+<h2 style="text-align:center font-size 50px">REDES SOCIAIS</h3><br>
+<a href="https://web.whatsapp.com/" target="_blank"><img src="img/zap.png" width="50px"></a> <a href="https://www.instagram.com/l.monteiroc/" target="_blank"><img src="img/insta.png" width="50px"><a href="https://web.telegram.org/#/login" target="_blank"><img src="img/telegram-app.png" width="50px"></a> <a href="https://www.linkedin.com/in/lucianomonteirocaprara/" target="_blank"><img src="img/in.png" width="50px"></a>  <a href="https://github.com/lmonteiroc " target="_blank"><img src="img/hub.png" width="50px"></a> 
+<p class="footer-copyright"><a href="contato.html"><button type="button" onclick="clicou()">CONTATO</button></a> +5511 951994876<a href="mailto:lucianomcaprara@gmail.com">| @ |</a> ©2021 Copyright | All Rights Reserved|<i>by Luciano Monteiro Caprara</i></p>
+</div>
+</div>
+</div>
+</center>
+</footer>
+</main>
+
+</body>
+</html>
